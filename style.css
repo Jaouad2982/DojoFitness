@@ -17,3 +17,14 @@ ul li a{
 footer a {
     text-decoration: none;
 }
+
+.section-middle-images{
+    width: 80%;
+    margin-left: 5rem;;
+    display:flex;
+    justify-content: space-between;
+}
+.section-middle-images img{
+    width:4rem;
+
+}
