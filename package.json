@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "fontawesome": "^5.6.3",
+    "lite-server": "^2.6.1"
+  },
+  "name": "port-two",
+  "version": "1.0.0",
+  "description": "Dojo portfolio Gym",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaouad",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+.main-image {
+    width: 100%;
+}
+
+.imgs {
+    width: 100%;
+}
+
+ul li a{
+    font-size: 0.8rem;
+}
+
+.logo{
+    width: 3rem;
+}
+
+footer a {
+    text-decoration: none;
+}
