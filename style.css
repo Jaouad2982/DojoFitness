@@ -19,12 +19,20 @@ footer a {
 }
 
 .section-middle-images{
-    width: 80%;
-    margin-left: 5rem;;
+    width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .section-middle-images img{
     width:4rem;
 
+}
+
+.section-middle-images h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+.middle-title{
+    font-family: 'Cabin', sans-serif;
 }
