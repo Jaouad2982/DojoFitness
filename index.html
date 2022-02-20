@@ -47,19 +47,39 @@
                         </li>
                         <li class="nav-item"> <a class="nav-link px-lg-3 py-lg-4" href="#"></a>
                         </li>
-                    </ul> <a class="btn btn-light ms-lg-auto ps-4 pe-4 rounded-pill" href="#">Login&nbsp;</a>
+                    </ul> <a class="btn btn-light ms-lg-auto ps-4 pe-4 rounded-pill" data-toggle="modal" data-target="#exampleModalCenter" href="#">Login&nbsp;</a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         <section class="bg-primary pb-5 pt-5 text-white">
             <div class="container pb-5 pt-5 d-flex" <div class="row align-items-center">
                 <div class="col-lg-6 pb-3 pt-3">
                     <h1 class="display-4 fw-bold mb-3">Your results are closer than what you think</h1>
                     <p class="lead mb-4">Our ability to feel, to assist you when you need us.</p>
-                    <a class="btn btn-outline-light ps-4 pe-4 rounded-pill" href="#">Learn More</a>
-                    <a class="btn btn-light ms-2 ps-4 pe-4 rounded-pill" href="#">Contact Now</a>
+                    <div class="btn-header ">
+                    <a class="btn btn-light ps-4 pe-4 rounded-pill" href="#">Contact Now</a>
+                    </div>
                 </div>
                 <div class="col-lg-6 pb-3 pt-3">
                     <img class=" main-image img-thumbnail"
@@ -82,11 +102,11 @@
                 <h5>Running facilities</h5>
                 <img src="images/run.png" alt-"swim">
             </div>
-            <div><h5>bodyBuilding and weightlifting</h5>
+            <div><h5>weightlifting</h5>
                 <img src="images/lift.png" alt-"swim">
             </div>
             <div>
-                <h5>Yoga and salsa</h5>
+                <h5>Yoga</h5>
                 <img src="images/stretch.png" alt-"swim">
             </div>
 
@@ -429,6 +449,7 @@
         </div>
     </footer>
     <script src="assets/js/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 

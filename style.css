@@ -19,9 +19,8 @@ footer a {
 }
 
 .section-middle-images{
-    width: 100%;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .section-middle-images img{
     width:4rem;
@@ -31,6 +30,7 @@ footer a {
 .section-middle-images h5{
     font-family: 'Montserrat', sans-serif;
     font-size: small;
+    text-align: center;
 }
 
 .middle-title{
